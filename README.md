@@ -9,5 +9,6 @@ TGAT.
 
 
 DETAILS:
-  Objective 1-4 uses the variable that the user inputted at the beggining 
-  objective 5 gives you the option of putting in 2 new strings to find the longest substring 
+  Objective 1-3 use the variable that the user inputted at the beggining
+  Objective 4 ask you to input the strand of DNA that you want decoded
+  objective 5 asks you to input 2 new strings to find the longest substring 
