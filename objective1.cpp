@@ -234,9 +234,10 @@ int main()
 	string userInput;
 	string methodInput; //obj2
 	string subString;// obj3
-	string longstring;//for 1-4
+	string longstring;//for 1-3
 	string strand1; //obj 5
 	string strand2; //obj5
+	string obj4; //obj4
 	cout << "OBJECTIVE 1" << endl << "Please input a string:";
 	cin >> userInput;
 	longstring = dna1.endodeDRNA(userInput, true);
@@ -260,7 +261,10 @@ int main()
 	cout << "The Index is " << dna1.findIndex(longstring, subString) << endl;
 
 	cout << "Objective 4" << endl;
-	cout << "The ASCII equivilant of the strand is (the first user input)  " << dna1.flipString(userInput) << endl;
+	cout << "Input a DNA strand that you would like to be decoded" << endl;
+	cin >> obj4;
+
+	cout << "The ASCII equivilant of the strand is (the first user input)  " << dna1.flipString(obj4) << endl;
 
 	cout << "objective 5" << endl;
 	cout << "Please input 2 DNA strands and i'll find the longest sub-sequence of it : " << endl;
